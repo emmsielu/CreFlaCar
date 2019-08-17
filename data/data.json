@@ -161,8 +161,7 @@
 		"some nob",
 		"Danny Dyer",
 		"A wanker",
-		"Boris Johnson",
-
+		"Boris Johnson"
 	],
 	"foodDrink":[
 		"Aubergine",
@@ -255,8 +254,7 @@
 		"Life coach",
 		"Wine expert",
 		"dinner lady",
-		"a mother",
-
+		"a mother"
 	],
 	"physicalDeformity":[
 		"two heads",
@@ -295,8 +293,7 @@
 		"eats too many crips",
 		"really needs the toilet",
 		"getting hangry",
-		"gets distracted too easily",
-		""
+		"gets distracted too easily"
 	],
 	"goalAspiration":[
 		"drink really expensive wine",
@@ -307,14 +304,12 @@
 		"solve world peace",
 		"become a nice politician",
 		"run a beach bar",
-		"open an otter sacntuary"
+		"open an otter sacntuary",
 		"ride a horse, naked through the town square",
 		"star in a film",
 		"win a pie eating contest",
 		"travel the world"
 	]
-	
-	
 
 }
 
