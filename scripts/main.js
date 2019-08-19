@@ -3,11 +3,15 @@
 (function() {
 
 	var myJsonData;
-	var buttons = document.querySelectorAll('.button');
+	const buttons = document.querySelectorAll('.button');
 
 	//var list = document.querySelector('.selection');
-	var resultsText = document.getElementById("improv-text");
-	
+	var characterPrompt = document.getElementById("character_prompt");
+	var physicalDeformityPrompt = document.getElementById("physicalDeformity_prompt");
+	var jobPrompt = document.getElementById("job_prompt");
+	var problemPrompt = document.getElementById("problem_prompt");
+	var goalAspirationPrompt = document.getElementById("goalAspiration_prompt");
+
 
 	/*function fetchCardLists(){
 		// $.ajax method returns a "deferred" otherwise known as a Promise
@@ -22,7 +26,7 @@
 	}
 
 	function request() {
-		var url = '/data/data.json',
+		const url = '/data/data.json',
 		openReq = new XMLHttpRequest();
 		
 		openReq.addEventListener('load', reqListener);
@@ -42,16 +46,11 @@
 	}
 
 	function ready(){
-		// Math.seedrandom();
 
 		for (var i = 0; i < buttons.length; i++) {
 				buttons[i].addEventListener('click', onCreateButtonClick);
 	
     	}
-
-		// fetchCardLists().then(function (cardLists) {
-		// 	myJsonData = cardLists;
-		// })
 
 		request();
 	}
@@ -59,7 +58,7 @@
 	function onCreateButtonClick(){
 
 		var people = chooseCard('people');
-		var superHeroVillain = chooseCard('superheroVillain');
+		var superHeroVillain = chooseCard('superHeroVillain');
 		var animal = chooseCard('animal');
 		var foodDrink = chooseCard('foodDrink');
 		var object = chooseCard('object');
@@ -67,14 +66,25 @@
 		var physicalDeformity = chooseCard('physicalDeformity');
 		var problem = chooseCard('problem');
 		var goalAspiration = chooseCard('goalAspiration');
+		
+		var characterArray = [people, superHeroVillain, animal, foodDrink, object];
+		
+		for(let i=0; i<characterArray.length; i++){
 
-		var prompt;
+			var randomNumber = Math.floor(Math.random() * characterArray.length);
+			var character = characterArray[randomNumber];
 
-		prompt = `${people} ${superHeroVillain} ${animal} ${foodDrink} ${object} ${job} ${physicalDeformity} ${problem} ${goalAspiration}`;
+		}
+
+		//TO DO: add stuff in to do each part one by one. Can do story in sections, so when another prompt comes up, if it makes no sense where the story was going, it might be funnier
+		characterPrompt.innerHTML = character;
+		jobPrompt.innerHTML = job;
+		physicalDeformityPrompt.innerHTML = physicalDeformity;
+		problemPrompt.innerHTML = problem;
+		goalAspirationPrompt.innerHTML = goalAspiration;
 
 
-		console.log(prompt);
-		resultsText.innerHTML = prompt;
+
 		
 	}
 
