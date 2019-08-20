@@ -1,15 +1,62 @@
-body{
-
-	font-family: Arial;
-	font-size: 100%;
-	color: green;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #999;
 }
 
-.button-create{
+body{
 
-	font-size: 1rem;
-	padding: 0.5rem 0.75rem;
-	background: #efefef;
-	border: 1px #ccc solid;
-	border-radius: 2px;
+	font-family: Exo;
+/*	color: green;
+*/}
+
+.wrapper{
+
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3;
+
+
+}
+
+header {
+
+    grid-column: 1/5;
+
+    
+}
+
+.intro{
+
+
+
+}
+
+.prompt{
+
+
+
+
+}
+
+
+
+.button{
+
+	cursor:pointer;
+
+}
+
+p{
+
+	font-size: 3rem;
+
+}
+
+.text-container{
+
+	color: grey;
+	font-size: 5rem;
+
 }
