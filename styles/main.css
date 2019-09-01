@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*border: 1px solid #eee;*/
+    border: 1px solid #eee;
 
 }
 
@@ -54,7 +54,7 @@ body{
     width: 95%;
     margin: 0 auto;
     grid-template-rows: 50px auto;
-    grid-template-columns: 1fr 1fr 1fr 1.5fr 2.5fr;
+    grid-template-columns: repeat(5, 1fr);
 
     /*background: lightgreen;*/
 
@@ -62,10 +62,10 @@ body{
 
 .prompt{
 
-    display: flex;
-/*    grid-template-rows: 1fr 2fr;
-    grid-gap: 10px;*/
-    flex-flow: column;
+    display: grid;
+    grid-template-rows: 80px auto;
+/*    grid-gap: 10px;
+    flex-flow: column;*/
     /*justify-content: space-around;*/
     border: 1px solid #eee;
     /*background: lightblue;*/
