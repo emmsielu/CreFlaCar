@@ -74,8 +74,16 @@
 		for(let i=0; i<characterArray.length; i++){
 
 			var randomCharacterNumber = Math.floor(Math.random() * characterArray.length);
-			var character = characterArray[randomCharacterNumber];
+	
+			if(randomCharacterNumber === 2){
+				var colour = chooseCard('colour');
+				var character = 'a'.concat(' ', colour, ' ', characterArray[randomCharacterNumber]);
 
+			}else {
+
+				var character = characterArray[randomCharacterNumber];
+			}
+			
 		}
 
 		for(let j=0; j<thingArray.length; j++){
@@ -85,7 +93,7 @@
 
 		}
 
-		for(let k=0; k<thingArray.length; k++){
+		for(let k=0; k<challengeArray.length; k++){
 
 			var randomChallengeNumber = Math.floor(Math.random() * challengeArray.length);
 			var challenge = challengeArray[randomChallengeNumber];
