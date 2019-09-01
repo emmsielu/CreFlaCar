@@ -7,9 +7,9 @@
 
 	//var list = document.querySelector('.selection');
 	var characterPrompt = document.getElementById("character_prompt");
-	var physicalDeformityPrompt = document.getElementById("physicalDeformity_prompt");
+	var challengePrompt = document.getElementById("challenge_prompt");
 	var jobPrompt = document.getElementById("job_prompt");
-	var problemPrompt = document.getElementById("problem_prompt");
+	var thingPrompt = document.getElementById("thing_prompt");
 	var goalAspirationPrompt = document.getElementById("goalAspiration_prompt");
 
 
@@ -67,20 +67,38 @@
 		var problem = chooseCard('problem');
 		var goalAspiration = chooseCard('goalAspiration');
 		
-		var characterArray = [people, superHeroVillain, animal, foodDrink, object];
+		var characterArray = [people, superHeroVillain, animal];
+		var thingArray = [foodDrink, object];
+		var challengeArray = [problem, physicalDeformity];
 		
 		for(let i=0; i<characterArray.length; i++){
 
-			var randomNumber = Math.floor(Math.random() * characterArray.length);
-			var character = characterArray[randomNumber];
+			var randomCharacterNumber = Math.floor(Math.random() * characterArray.length);
+			var character = characterArray[randomCharacterNumber];
 
 		}
+
+		for(let j=0; j<thingArray.length; j++){
+
+			var randomThingNumber = Math.floor(Math.random() * thingArray.length);
+			var thing = thingArray[randomThingNumber];
+
+		}
+
+		for(let k=0; k<thingArray.length; k++){
+
+			var randomChallengeNumber = Math.floor(Math.random() * challengeArray.length);
+			var challenge = challengeArray[randomChallengeNumber];
+
+		}
+
+
 
 		//TO DO: add stuff in to do each part one by one. Can do story in sections, so when another prompt comes up, if it makes no sense where the story was going, it might be funnier
 		characterPrompt.innerHTML = character;
 		jobPrompt.innerHTML = job;
-		physicalDeformityPrompt.innerHTML = physicalDeformity;
-		problemPrompt.innerHTML = problem;
+		challengePrompt.innerHTML = challenge;
+		thingPrompt.innerHTML = thing;
 		goalAspirationPrompt.innerHTML = goalAspiration;
 
 

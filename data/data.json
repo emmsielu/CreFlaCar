@@ -87,7 +87,8 @@
 		"a Dromedary",
 		"a jellyfish",
 		"a Red Panda",
-		"an octopus"
+		"an octopus",
+		"a tarantula"
 	],
 	"superHeroVillain":[
 		"Dr. Who",
@@ -160,7 +161,10 @@
 		"some nob",
 		"Danny Dyer",
 		"A wanker",
-		"Boris Johnson"
+		"Boris Johnson",
+		"a Stroppy teenager",
+		"a small child",
+		"a screaming toddler"
 	],
 	"foodDrink":[
 		"an Aubergine",
@@ -257,7 +261,9 @@
 		"a Life coach",
 		"a Wine expert",
 		"a dinner lady",
-		"a mother"
+		"a mother",
+		"a train driver",
+		"A talk show host"
 	],
 	"physicalDeformity":[
 		"two heads",
@@ -286,7 +292,8 @@
 		"three eyes",
 		"wonky horns",
 		"missing their left elbow",
-		"hands are tins of baked beans"
+		"hands are tins of baked beans",
+		"has the neck of a goose"
 	],
 	"problem":[
 		"can't see anything purple",
@@ -299,7 +306,10 @@
 		"getting hangry",
 		"gets distracted too easily",
 		"absolutely can't stand the sight of beetroot",
-		"thinks fish are the devil"
+		"thinks fish are the devil",
+		"permanently on a rollercoaster",
+		"too good at terrible dad dancing",
+		"can't stop striking sexy poses"
 	],
 	"goalAspiration":[
 		"drink really expensive wine",
