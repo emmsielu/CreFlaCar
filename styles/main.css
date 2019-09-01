@@ -28,10 +28,11 @@ body{
 
 .header {
 
-    grid-column: 1/ -1;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    justify-content: space-between;
+    grid-gap: 10px
+    /*justify-content: space-between;*/
     /*background: gray;*/
 }
 
