@@ -54,7 +54,8 @@ body{
     width: 95%;
     margin: 0 auto;
     grid-template-rows: 50px auto;
-    grid-template-columns: repeat(5, 1fr);
+   /* grid-template-columns: repeat(5, 1fr);*/
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
     /*background: lightgreen;*/
 
