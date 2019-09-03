@@ -29,11 +29,23 @@ body{
 .header {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
-    grid-gap: 10px
-    /*justify-content: space-between;*/
+    grid-column-gap: 10px
+    /*justify-content: space-between;
     /*background: gray;*/
+}
+
+.header h1{
+
+    justify-self: start;
+
+}
+
+.header h4{
+
+    justify-self: end;
+
 }
 
 
