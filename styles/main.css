@@ -60,17 +60,47 @@ body{
 
 .dynamic{
 
-   /* grid-column: 1/ -1;*/
     display: grid;
-    grid-gap: 20px;
-
-    width: 95%;
+    grid-gap: 30px;
+    width: 80%;
     margin: 0 auto;
-    grid-template-rows: 50px auto;
-   /* grid-template-columns: repeat(5, 1fr);*/
-   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: 50px auto auto auto;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+/*    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
 
-    /*background: lightgreen;*/
+  /*  background: lightgreen;*/
+
+}
+
+.character{
+
+    grid-column: 1/2;
+
+}
+
+.job{
+
+    grid-column: 2/-1;
+
+}
+
+.goal{
+
+    grid-column: 1/-1;
+
+
+}
+
+.challenge{
+
+    grid-column: 1/2;
+
+}
+
+.thing{
+
+    grid-column: 2/-1;
+
 
 }
 
@@ -89,7 +119,8 @@ body{
 
 .prompt-intro{
 
-    grid-column: 1/ -1;
+    /*background: pink;*/
+    grid-column: 1/-1;
 
 }
 
