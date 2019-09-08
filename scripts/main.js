@@ -61,7 +61,6 @@
 		var countryEnd = chooseCard('countryEnd');
 
 		var country = countryStart.concat(countryMiddle,countryEnd);
-console.log(country);
 
 		var people = chooseCard('people');
 		var animal = chooseCard('animal');
@@ -84,7 +83,7 @@ console.log(country);
 	
 			if(symbolArray[randomSymbolNumber] === animal){
 				var colour = chooseCard('colour');
-				var symbol = 'a'.concat(' ', colour, ' ', characterArray[randomCharacterNumber]);
+				var symbol = 'a'.concat(' ', colour, ' ', symbolArray[randomSymbolNumber]);
 
 			}else {
 
@@ -97,7 +96,7 @@ console.log(country);
 		for(let j=0; j<exportArray.length; j++){
 
 			var randomExportNumber = Math.floor(Math.random() * exportArray.length);
-			var export = exportArray[randomExportNumber];
+			var nationalExport = exportArray[randomExportNumber];
 
 		}
 
@@ -113,7 +112,7 @@ console.log(country);
 		//TO DO: add stuff in to do each part one by one. Can do story in sections, so when another prompt comes up, if it makes no sense where the story was going, it might be funnier
 		countryPrompt.innerHTML = country;
 		symbolPrompt.innerHTML = symbol;
-		exportPrompt.innerHTML = export;
+		exportPrompt.innerHTML = nationalExport;
 		crisisPrompt.innerHTML = crisis;
 
 		
