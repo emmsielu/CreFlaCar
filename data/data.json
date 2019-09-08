@@ -230,7 +230,7 @@
 		"a train driver",
 		"A talk show host"
 	],
-	"physicalDeformity":[
+	"physicalQuirk":[
 		"two heads",
 		"one tiny Arm",
 		"a triangle shaped booty",
@@ -361,6 +361,35 @@
 		"Beige",
 		"Greige",
 		"Illuminous Orange"
+	],
+	"countryStart":[
+		"Uri",
+		"Bodi",
+		"Ola",
+		"Great",
+		"Guni",
+		"Buni",
+		"Ging"
+	],
+	"countryMiddle":[
+		"odi",
+		"umli",
+		"kazig",
+		"bromli",
+		"goni",
+		"funi",
+		"gini"
+
+	],
+	"countryEnd":[
+		"izistan",
+		"ilani",
+		"land",
+		"ley",
+		"country",
+		"farm",
+		"gen"
+
 	]
 
 }

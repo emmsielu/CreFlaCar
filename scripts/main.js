@@ -6,11 +6,10 @@
 	const buttons = document.querySelectorAll('.button');
 
 	//var list = document.querySelector('.selection');
-	var characterPrompt = document.getElementById("character_prompt");
-	var challengePrompt = document.getElementById("challenge_prompt");
-	var jobPrompt = document.getElementById("job_prompt");
-	var thingPrompt = document.getElementById("thing_prompt");
-	var goalAspirationPrompt = document.getElementById("goalAspiration_prompt");
+	var countryPrompt = document.getElementById("country_prompt");
+	var symbolPrompt = document.getElementById("symbol_prompt");
+	var exportPrompt = document.getElementById("export_prompt");
+	var crisisPrompt = document.getElementById("crisis_prompt");
 
 
 	/*function fetchCardLists(){
@@ -57,58 +56,65 @@
 
 	function onCreateButtonClick(){
 
+		var countryStart = chooseCard('countryStart');
+		var countryMiddle = chooseCard('countryMiddle');
+		var countryEnd = chooseCard('countryEnd');
+
+		var country = countryStart.concat(countryMiddle,countryEnd);
+console.log(country);
+
 		var people = chooseCard('people');
 		var animal = chooseCard('animal');
+		var job = chooseCard('job');
+
 		var foodDrink = chooseCard('foodDrink');
 		var object = chooseCard('object');
-		var job = chooseCard('job');
-		var physicalDeformity = chooseCard('physicalDeformity');
+
+		var physicalQuirk = chooseCard('physicalQuirk');
 		var problem = chooseCard('problem');
 		var goalAspiration = chooseCard('goalAspiration');
 		
-		var characterArray = [people, animal];
-		var thingArray = [foodDrink, object];
-		var challengeArray = [problem, physicalDeformity];
+		var symbolArray = [animal, people, job];
+		var exportArray = [foodDrink, object];
+		var crisisArray = [problem, goalAspiration];
 		
-		for(let i=0; i<characterArray.length; i++){
+		for(let i=0; i<symbolArray.length; i++){
 
-			var randomCharacterNumber = Math.floor(Math.random() * characterArray.length);
+			var randomSymbolNumber = Math.floor(Math.random() * symbolArray.length);
 	
-			if(characterArray[randomCharacterNumber] === animal){
+			if(symbolArray[randomSymbolNumber] === animal){
 				var colour = chooseCard('colour');
-				var character = 'a'.concat(' ', colour, ' ', characterArray[randomCharacterNumber]);
+				var symbol = 'a'.concat(' ', colour, ' ', characterArray[randomCharacterNumber]);
 
 			}else {
 
-				var character = characterArray[randomCharacterNumber];
+				var symbol = symbolArray[randomSymbolNumber];
+				symbol.concat('with', physicalQuirk);
 			}
 			
 		}
 
-		for(let j=0; j<thingArray.length; j++){
+		for(let j=0; j<exportArray.length; j++){
 
-			var randomThingNumber = Math.floor(Math.random() * thingArray.length);
-			var thing = thingArray[randomThingNumber];
+			var randomExportNumber = Math.floor(Math.random() * exportArray.length);
+			var export = exportArray[randomExportNumber];
 
 		}
 
-		for(let k=0; k<challengeArray.length; k++){
+		for(let k=0; k<crisisArray.length; k++){
 
-			var randomChallengeNumber = Math.floor(Math.random() * challengeArray.length);
-			var challenge = challengeArray[randomChallengeNumber];
+			var randomCrisisNumber = Math.floor(Math.random() * crisisArray.length);
+			var crisis = crisisArray[randomCrisisNumber];
 
 		}
 
 
 
 		//TO DO: add stuff in to do each part one by one. Can do story in sections, so when another prompt comes up, if it makes no sense where the story was going, it might be funnier
-		characterPrompt.innerHTML = character;
-		jobPrompt.innerHTML = job;
-		challengePrompt.innerHTML = challenge;
-		thingPrompt.innerHTML = thing;
-		goalAspirationPrompt.innerHTML = goalAspiration;
-
-
+		countryPrompt.innerHTML = country;
+		symbolPrompt.innerHTML = symbol;
+		exportPrompt.innerHTML = export;
+		crisisPrompt.innerHTML = crisis;
 
 		
 	}
