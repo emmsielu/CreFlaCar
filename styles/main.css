@@ -62,17 +62,16 @@ body{
 
     display: grid;
     grid-gap: 30px;
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
-    grid-template-rows: 50px auto auto auto;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
-/*    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    grid-template-rows: 50px auto;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
   /*  background: lightgreen;*/
 
 }
 
-.character{
+/*.character{
 
     grid-column: 1/2;
 
@@ -102,7 +101,7 @@ body{
     grid-column: 2/-1;
 
 
-}
+}*/
 
 .prompt{
 
