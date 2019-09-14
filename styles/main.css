@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*border: 1px solid #eee;*/
+    border: 1px solid #eee;
 
 }
 
@@ -11,6 +11,8 @@ body{
 	font-family: Exo;
     background: #222;
     color: white;
+    text-align: center;
+
 
 }
 
@@ -39,6 +41,7 @@ body{
 
     justify-self: start;
 
+
 }
 
 .header h4{
@@ -61,7 +64,6 @@ body{
 
    /* grid-column: 1/ -1;*/
     display: grid;
-<<<<<<< HEAD
     grid-gap: 30px;
     width: 95%;
     margin: 0 auto;
@@ -71,6 +73,7 @@ body{
   /*  background: lightgreen;*/
 
 }
+
 
 /*.character{
 
@@ -85,17 +88,14 @@ body{
 }
 
 .goal{
-=======
     grid-gap: 20px;
->>>>>>> parent of ad032aa... layout changes
-
     width: 95%;
     margin: 0 auto;
     grid-template-rows: 50px auto;
-   /* grid-template-columns: repeat(5, 1fr);*/
-   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
-    /*background: lightgreen;*/
+    background: lightgreen;
 
 }*/
 
@@ -154,15 +154,23 @@ p{
 
 }
 
-<<<<<<< HEAD
-/* TO DO: Media query for centering text;*/
-=======
->>>>>>> parent of c3dad3b... stuff
+/* ******TO DO: ****** */
 
- @media only screen and (max-width: 599px) {
-  body {
-    text-align: center;
-  }
+ @media only screen and (max-width: 831px) {
+
+    .header h1{
+
+        justify-self: center;
+
+    }
+
+    .header h4{
+
+        justify-self: center;
+
+    }
+
+
 }
 
 
