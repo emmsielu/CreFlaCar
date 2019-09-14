@@ -59,7 +59,9 @@ body{
 
 .dynamic{
 
+   /* grid-column: 1/ -1;*/
     display: grid;
+<<<<<<< HEAD
     grid-gap: 30px;
     width: 95%;
     margin: 0 auto;
@@ -83,22 +85,17 @@ body{
 }
 
 .goal{
+=======
+    grid-gap: 20px;
+>>>>>>> parent of ad032aa... layout changes
 
-    grid-column: 1/-1;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-rows: 50px auto;
+   /* grid-template-columns: repeat(5, 1fr);*/
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
-
-}
-
-.challenge{
-
-    grid-column: 1/2;
-
-}
-
-.thing{
-
-    grid-column: 2/-1;
-
+    /*background: lightgreen;*/
 
 }*/
 
@@ -117,8 +114,7 @@ body{
 
 .prompt-intro{
 
-    /*background: pink;*/
-    grid-column: 1/-1;
+    grid-column: 1/ -1;
 
 }
 
