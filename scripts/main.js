@@ -63,13 +63,13 @@
 		var foodDrink = chooseCard('foodDrink');
 		var object = chooseCard('object');
 		var job = chooseCard('job');
-		var physicalDeformity = chooseCard('physicalDeformity');
+		var physicalQuirk = chooseCard('physicalQuirk');
 		var problem = chooseCard('problem');
 		var goalAspiration = chooseCard('goalAspiration');
 		
 		var characterArray = [people, superHeroVillain, animal];
 		var thingArray = [foodDrink, object];
-		var challengeArray = [problem, physicalDeformity];
+		var challengeArray = [problem, physicalQuirk];
 		
 		for(let i=0; i<characterArray.length; i++){
 
