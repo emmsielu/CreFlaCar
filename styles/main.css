@@ -9,7 +9,6 @@
 body{
 
 	font-family: Exo;
-    text-align: center;
     background: #222;
     color: white;
 
@@ -165,8 +164,12 @@ p{
 
 }
 
-/* TO DO: Media query for centering text;
+/* TO DO: Media query for centering text;*/
 
-
+ @media only screen and (max-width: 599px) {
+  body {
+    text-align: center;
+  }
+}
 
 
