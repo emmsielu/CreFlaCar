@@ -139,7 +139,8 @@
 		"Boaty McBoatFace",
 		"R2D2",
 		"C3P0",
-		"Han Solo"
+		"Han Solo",
+		"Gandalf"
 	],
 	"people":[
 		"Jeff from Finance",
@@ -156,21 +157,44 @@
 		"A fabulous Drag Queen",
 		"Barbara from the back office",
 		"Your micro-managing boss",
-		"Bernard Matthews",
-		"Taylor Swift",
 		"some guy mansplaining",
 		"that gropey colleague",
 		"some random guy on Tinder",
 		"the Twitter troll",
 		"some nob",
-		"Danny Dyer",
 		"An absolute wanker",
-		"Boris Johnson",
 		"a Stroppy teenager",
 		"a small child",
 		"a screaming toddler",
+		"a Victorian wench",
+		"a Victorian posh lady",
+		"a Vampire",
+		"an elf",
+		"a werewolf",
+		"a cockney",
+		"a witch",
+		"The train witch",
+		"a goblin"
+	],
+	"famousPeople":[
 		"Shakespeare",
-		"Winston CHurchill"
+		"Winston Churchill",
+		"Bernard Matthews",
+		"Taylor Swift",
+		"Danny Dyer",
+		"Boris Johnson",
+		"Mozart",
+		"Picasso",
+		"Elvis Presley",
+		"Adele",
+		"Tom Jones",
+		"Marilyn Monroe",
+		"Bjork",
+		"Craig David",
+		"Jason Derulo",
+		"The Queen",
+		"Julian Barrat",
+		"Noel Fielding"
 	],
 	"foodDrink":[
 		"an Aubergine",
@@ -251,7 +275,7 @@
 		"a Lollipop lady",
 		"a Tree surgeon",
 		"a Web designer",
-		"a Developer",
+		"a web developer",
 		"an Engineer",
 		"a Police officer",
 		"a Dog walker",
@@ -269,7 +293,11 @@
 		"a dinner lady",
 		"a mother",
 		"a train driver",
-		"A talk show host"
+		"A talk show host",
+		"A news reader",
+		"a window washer",
+		"a grammar nazi",
+		"on the dole"
 	],
 	"physicalQuirk":[
 		"two heads",
@@ -299,7 +327,10 @@
 		"wonky horns",
 		"missing their left elbow",
 		"hands are tins of baked beans",
-		"has the neck of a goose"
+		"has the neck of a goose",
+		"woke up with no nose",
+		"has one tiny hand",
+		"has fifteen fingers on one hand"
 	],
 	"problem":[
 		"they can't see anything purple",
@@ -315,7 +346,13 @@
 		"thinks fish are the devil",
 		"permanently on a rollercoaster",
 		"too good at terrible dad dancing",
-		"can't stop striking sexy poses"
+		"can't stop striking sexy poses",
+		"won't stop blowing raspberries",
+		"can't stop farting",
+		"keeps falling over",
+		"pisses themselves every time someone says hello",
+		"Finds trees too sexy"
+
 	],
 	"goalAspiration":[
 		"drink really expensive wine in a chateaux in France",
@@ -332,7 +369,20 @@
 		"win a pie eating contest",
 		"travel the world with a horse",
 		"star in a panto production of Les Miserables",
-		"star in a west end production of Hairspray"
+		"star in a west end production of Hairspray",
+		"become the Queen",
+		"be the Prime Minister",
+		"tap dance on the moon",
+		"Eat monster munch on the tube",
+		"drink an M&S cocktail in a can, on the tube",
+		"live in a ball pool full of fluffy kittens",
+		"work in a training school for guide dogs",
+		"live in a remote hut on the side of a mountain in the Scottish Highlands, with only a goat for company",
+		"open a centre for cuddling sloths",
+		"live on a giant yacht, staffed by monkeys",
+		"live on a permanent cruise, where the entertainment is provided by chimpanzees and their pet parrots",
+		"sit around in their pants every day, writing jokes for Julian Barrat",
+		"get paid as much as the man doing the same job"
 	],
 	"colour":[
 		"Green",

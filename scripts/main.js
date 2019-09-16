@@ -58,6 +58,7 @@
 	function onCreateButtonClick(){
 
 		var people = chooseCard('people');
+		var famousPeople = chooseCard('famousPeople');
 		var superHeroVillain = chooseCard('superHeroVillain');
 		var animal = chooseCard('animal');
 		var foodDrink = chooseCard('foodDrink');
@@ -67,7 +68,7 @@
 		var problem = chooseCard('problem');
 		var goalAspiration = chooseCard('goalAspiration');
 		
-		var characterArray = [people, superHeroVillain, animal];
+		var characterArray = [people, famousPeople, superHeroVillain, animal];
 		var thingArray = [foodDrink, object];
 		var challengeArray = [problem, physicalQuirk];
 		
@@ -75,7 +76,7 @@
 
 			var randomCharacterNumber = Math.floor(Math.random() * characterArray.length);
 	
-			if(randomCharacterNumber === 2){
+			if(characterArray[randomCharacterNumber] === animal){
 				var colour = chooseCard('colour');
 				var character = 'a'.concat(' ', colour, ' ', characterArray[randomCharacterNumber]);
 
