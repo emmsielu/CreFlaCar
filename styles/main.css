@@ -108,7 +108,7 @@ body{
 .prompt{
 
     display: grid;
-    grid-template-rows: 80px auto;
+    grid-template-rows: 60px auto;
 /*    grid-gap: 10px;
     flex-flow: column;*/
     /*justify-content: space-around;*/
