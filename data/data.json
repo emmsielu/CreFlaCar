@@ -205,7 +205,8 @@
 		"The Queen",
 		"Julian Barrat",
 		"Noel Fielding",
-		"Brian Blessed"
+		"Brian Blessed",
+		"Paul Hollywood"
 	],
 	"foodDrink":[
 		"an Aubergine",
@@ -274,6 +275,9 @@
 	"job":[
 		"A Shopkeeper",
 		"An Art Director",
+		"A baker",
+		"A candelstick maker",
+		"a carpenter",
 		"A School Teacher",
 		"A Builder",
 		"An Accountant",
@@ -393,7 +397,10 @@
 		"live on a giant yacht, staffed by monkeys",
 		"live on a permanent cruise, where the entertainment is provided by chimpanzees and their pet parrots",
 		"sit around in their pants every day, writing jokes for Julian Barrat",
-		"get paid as much as the man doing the same job"
+		"get paid as much as the man doing the same job",
+		"come second in bakeoff",
+		"come third in a hot dog eating contest",
+		"get in the Guinness Book of Records for the tallest mashed potato mountain"
 	],
 	"colour":[
 		"Green",
