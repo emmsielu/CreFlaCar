@@ -2,33 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   /* border: 1px solid #eee;*/
-
+    border: 1px solid #eee;
 }
 
-body{
-
-	font-family: Exo;
+body {
+    font-family: Exo;
     background: #222;
     color: white;
     text-align: center;
-
-
 }
 
-.wrapper{
-
+.wrapper {
     width: 95%;
     display: grid;
     grid-gap: 2rem;
     grid-template-rows: auto;
     margin: 1% auto;
-
-
 }
 
 .header {
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
@@ -37,42 +29,29 @@ body{
     /*background: gray;*/
 }
 
-.header h1{
-
+.header h1 {
     justify-self: start;
-
-
 }
 
-.header h4{
-
+.header h4 {
     justify-self: end;
-
 }
 
-
-.intro{
-
+.intro {
     grid-column: 1/ -1;
     /*justify-items: center;*/
-
     /*background: pink;*/
-
 }
 
-.dynamic{
-
-   /* grid-column: 1/ -1;*/
+.dynamic {
+    /* grid-column: 1/ -1;*/
     display: grid;
     grid-gap: 30px;
     width: 95%;
     margin: 0 auto;
     grid-template-rows: 50px auto auto auto;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
-
-
-  /*  background: lightgreen;*/
-
+    /*  background: lightgreen;*/
 }
 
 
@@ -88,10 +67,10 @@ body{
 
 }*/
 
-.dream{
-
+.dream {
     grid-column: 1/ -1;
 }
+
 
 /*.object{
 
@@ -103,98 +82,63 @@ body{
     grid-column: 3/ -1;
 }*/
 
-
-
-.prompt{
-
+.prompt {
     display: grid;
     grid-template-rows: 60px auto;
-/*    grid-gap: 10px;
+    /*    grid-gap: 10px;
     flex-flow: column;*/
     /*justify-content: space-around;*/
     border: 1px solid #eee;
     /*background: lightblue;*/
-
-
 }
 
-.prompt-intro{
-
+.prompt-intro {
     grid-column: 1/ -1;
-
 }
 
-.button{
-
-	cursor: pointer;
-
+.button {
+    cursor: pointer;
 }
 
-h2{
-
+h2 {
     margin-bottom: 10px;
-
 }
 
-h3{
-
+h3 {
     margin: 10px;
     font-weight: 300;
-
 }
 
-h4{
-
+h4 {
     font-weight: 300;
-    
-
 }
 
-
-
-p{
-   /* color: grey;*/
-	font-size: 2.5rem;
+p {
+    /* color: grey;*/
+    font-size: 2.5rem;
     font-weight: 300;
     margin: 10px;
-
 }
+
 
 /* ******TO DO: ****** */
 
-@media only screen and (max-width: 1000px){
-
-    .dynamic{
-
+@media only screen and (max-width: 1000px) {
+    .dynamic {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-
     }
-
 }
 
-
-
- @media only screen and (max-width: 831px) {
-
-    .header h1{
-
+@media only screen and (max-width: 831px) {
+    .header h1 {
         justify-self: center;
-
     }
-
-    .header h4{
-
+    .header h4 {
         justify-self: center;
-
     }
-
-/*    .dynamic{
+    /*    .dynamic{
 
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
     }*/
-
-
 }
-
-
